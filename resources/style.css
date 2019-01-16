@@ -5,18 +5,15 @@ body {
 
 a:link {
   color: white;
-}
-
-h1, h2, h3, .heading {
   font-weight: bold;
 }
 
-h1, .heading, #building, footer {
-  color: white;
+h1, h2, h3 {
+  font-weight: bold;
 }
 
-.heading {
-  font-size: 18px;
+h1, #building, footer {
+  color: white;
 }
 
 h1 {
@@ -29,6 +26,10 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   background-color: dimgray;
+  font-size: 18px;
+}
+
+.heading {
   font-size: 18px;
 }
 
